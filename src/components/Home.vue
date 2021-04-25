@@ -93,7 +93,6 @@
 
 <script>
 
-import {songs} from './firstpage.vue';
     export default {
         name: 'Home',
         data() {
@@ -106,7 +105,7 @@ import {songs} from './firstpage.vue';
         mounted: function () {
             this.showCake = true;
             this.showButtons = true;
-            console.log(songs)
+
         },
         methods: {
             goMessages() {
