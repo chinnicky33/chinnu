@@ -99,7 +99,6 @@
             return {
                 showCake: false,
                 showButtons: false,
-                songs:songs
             }
         },
         mounted: function () {
